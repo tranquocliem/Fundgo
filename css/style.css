@@ -26,7 +26,7 @@ section {
 }
 
 .section.du_an {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .elementor-element {
@@ -145,6 +145,7 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain; */
+    margin-left: 255px;
 }
 
 .pbv_2 .bg {
@@ -486,5 +487,11 @@ section {
 
     .du_an_item {
         font-size: 16px;
+    }
+}
+
+@media (max-height:610px) {
+    .pbv_2 {
+        margin-bottom: 175px;
     }
 }
